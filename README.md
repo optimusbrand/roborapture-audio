@@ -5,19 +5,6 @@ Design documentation for the core audio system of **RoboRapture**, a turned-base
 I was the **Team Lead and Audio Programmer**, responsible for the audio architecture, memory optimization, debugging tools and version-control workflow for the team. A secondary responsibility in this project (I volunteered) was the musical composition of a full soundtrack and dynamic system design.
  
 > **About this repository:** The game's source code and Unity project are under NDA and are not included. This repository contains my own design documentation, with game-specific content removed, and the scripts I was cleared to share.
-
-```
-# Repository breakdown
-roborapture-audio/
-├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── memory-and-loading.md
-│   ├── debugging-tools.md
-│   └── diagrams/
-├── scripts/
-└── media/
-```
  
 ## At a glance
  
@@ -43,6 +30,7 @@ roborapture-audio/
  
 | Document | What it covers |
 | --- | --- |
-| [Architecture](docs/architecture.md) | The layers of the audio system, how data flows between them, and why |
-| [Memory and loading](docs/memory-and-loading.md) | Loading strategy per sound type, what was measured, what changed |
-| [Debugging tools](docs/debugging-tools.md) | What each tool showed and how the team used it |
+| [Architecture](architecture.md) | The layers of the audio system, how data flows between them, and why |
+| [Memory and loading](memory-and-loading.md) | Loading strategy per sound type, what was measured, what changed |
+| [Debugging tools](debugging-tools.md) | What each tool showed and how the team used it |
+| [General Overview](RoboRapture-Presentation.pdf) | Initial presentation used to pitch audio vision to devs |
