@@ -11,6 +11,7 @@ Audio programming work done in C# codes, external Python tools, Wwise Implement
 
 ## Stack:
 #### C#, Python, Git, SourceTree, Wwise, Jira/Confluence, Google Apps Script (JavaScript), Unity
+<br>
 
 ## At a glance
  
@@ -28,7 +29,7 @@ Audio programming work done in C# codes, external Python tools, Wwise Implement
  
 - **Core audio system in C#.** Created the core scripts running the game's audio: WwiseMenuManager and WwiseTurnManager, both in C#
 - **Music creation and implementation.** Composed the full soundtrack for the game, implemented through wwise behaviors interacting with the audio managers; achieved a dynamic music system that played differently depending on turns, bosses, menus, etc.
-- **Memory optimization.** Handled optimization by asset handling: trimming silences in audio files; bouncing variations into a single file, using trimming to handle one asset instead of multiples; reduced sample rate on low-frequency asssets. Used hash maps and dynamic programming algorithms wihin the codes to reduce times.
+- **Memory optimization.** Handled optimization by asset processing: trimming silences in audio files; bouncing variations into a single file, using trimming to handle one asset instead of multiples; reduced sample rate on low-frequency asssets. Cleaned up most of the codes used for the audio team.
 - **Debugging tools.** Created and implemented a C# script that let developers use numpad to spawn enemies, bosses, change wwise states, etc. Created a type-check and naming convention-check for assets (with Python).
 - **Production tracking.** A ticketing and team-tracking system in Google Sheets with Google Apps Script, used to track 1,000+ assets. Check the individual repo for the Asset Tracker [Here](https://github.com/optimusbrand/asset-tracker-sheets)
 <br>
